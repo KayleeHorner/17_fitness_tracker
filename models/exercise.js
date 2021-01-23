@@ -31,11 +31,11 @@ const workoutSchema = new Schema({
     
     duration: {
         type: Number,
-        trim: true,
+        required: "Must Enter Duration"
+
     },
     distance: {
     type: Number,
-    trim: true,
     },
         }],
     day: {
