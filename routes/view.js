@@ -1,4 +1,3 @@
-const Exercise = require("../models/exercise");
 
 const router = require("express").Router();
 const path = require("path");
